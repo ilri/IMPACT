@@ -3,6 +3,7 @@ A number of studies have attempted to understand the impact of cropping and live
 
 Impact can be used by anyone who wishes to characterise a tropical farming system in such a way that they can then better and more clearly understand how the system works. By characterising a farming system, a user will be able to test within Impact the effects of different management scenarios on the system and to understand how they impact on a number of aspects of the farm, e.g., food security, income. At a simpler level, Impact also enables a user to see clearly the effects of an existing management strategy on a farming system.
 
+![Image](/screenshot.jpg?raw=true "Screen-shot")
 
 ## Technology
 IMPACT was built using:
@@ -12,7 +13,6 @@ IMPACT was built using:
 - [SQLite](https://www.sqlite.org/), a relational database management system contained in a C programming library.
 - [HighCharts](http://www.highcharts.com/), a charting library written in pure JavaScript. *(Included in source code)*
 
-![Image](/screenshot.jpg?raw=true "Screen-shot")
 
 ## Building and testing
 To build IMPACT on Linux do:
