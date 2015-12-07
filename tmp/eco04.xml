@@ -1,0 +1,44 @@
+<graph caption='' subcaption='' hovercapbg='FFECAA' hovercapborder='F47E00' formatNumberScale='0' decimalPrecision='0' showvalues='0' numdivlines='3' numVdivlines='0' yaxisminvalue='1000' yaxismaxvalue='1800'  rotateNames='1'>
+<categories >
+<category name='JAN' />
+<category name='FEB' />
+<category name='MAR' />
+<category name='APR' />
+<category name='MAY' />
+<category name='JUN' />
+<category name='JUL' />
+<category name='AUG' />
+<category name='SEP' />
+<category name='OCT' />
+<category name='NOV' />
+<category name='DEC' />
+</categories>
+<dataset seriesName='Income' color='0000ff' anchorBorderColor='0000ff' anchorBgColor='0000ff'>
+<set value='17744.70' />
+<set value='10700.70' />
+<set value='10700.70' />
+<set value='11000.70' />
+<set value='10700.70' />
+<set value='4700.70' />
+<set value='4700.70' />
+<set value='11000.70' />
+<set value='15686.70' />
+<set value='10700.70' />
+<set value='10700.70' />
+<set value='11000.70' />
+</dataset>
+<dataset seriesName='Expensed' color='ff0000' anchorBorderColor='ff0000' anchorBgColor='ff0000'>
+<set value='12580.00' />
+<set value='5410.00' />
+<set value='4010.00' />
+<set value='16239.88' />
+<set value='4488.80' />
+<set value='5410.00' />
+<set value='4580.00' />
+<set value='10230.00' />
+<set value='4010.00' />
+<set value='5980.00' />
+<set value='4010.00' />
+<set value='10170.00' />
+</dataset>
+</graph>

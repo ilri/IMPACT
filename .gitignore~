@@ -1,0 +1,100 @@
+# This file is used to ignore files which are generated
+# ----------------------------------------------------------------------------
+
+*~
+*.a
+*.core
+*.moc
+*.o
+*.obj
+*.orig
+*.rej
+*.so
+*_pch.h.cpp
+*_resource.rc
+*.qm
+.#*
+*.*#
+core
+!core/
+tags
+.DS_Store
+*.debug
+Makefile*
+*.prl
+*.app
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+Thumbs.db
+build.xml
+default.properties
+local.properties
+proguard.cfg
+
+# qtcreator generated files
+*.pro.user*
+*.pluginspec
+*.directory
+src/app/Info.plist
+src/plugins/coreplugin/ide_version.h
+share/qtcreator/externaltools
+
+# xemacs temporary files
+*.flc
+
+# Vim temporary files
+.*.swp
+
+# Visual Studio generated files
+*.ib_pdb_index
+*.idb
+*.ilk
+*.pdb
+*.sln
+*.suo
+*.vcproj
+*vcproj.*.*.user
+*.ncb
+
+# MinGW generated files
+*.Debug
+*.Release
+
+# translation related:
+share/qtcreator/translations/*_tr.h
+share/qtcreator/translations/qtcreator_untranslated.ts
+
+# Directories to ignore
+# ---------------------
+
+debug
+db
+android/bin
+android/gen
+android/libs
+android/res
+plugins/syschar/impmainmodules/android
+
+
+
+old_forms
+lib/*
+lib64/*
+release
+doc/html/*
+doc/api/html/*
+doc/pluginhowto/html/*
+.rcc
+.pch
+
+# Binaries
+# --------
+CrossImpact
+plugins/libimpmainmodules.so
+plugins/libimpwidgetsplugin.so
+plugins/syschar/impmainmodules/plugins/libimpwidgetsplugin.so
+
+
+
+

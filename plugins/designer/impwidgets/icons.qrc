@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>impact.png</file>
+        <file>new3.png</file>
+        <file>modify2.png</file>
+        <file>delete3.png</file>
+        <file>apply.png</file>
+        <file>cancel.png</file>
+        <file>closeform.png</file>
+    </qresource>
+</RCC>

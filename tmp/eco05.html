@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Highcharts Example</title>
+<script type="text/javascript" src="../3rdPartyTools/highcharts/js/jquery.min.js"></script>
+<script type="text/javascript">
+function addCommas(nStr)
+{
+nStr += '';
+x = nStr.split('.');
+x1 = x[0];
+x2 = x.length > 1 ? '.' + x[1] : '';
+var rgx = /(\d+)(\d{3})/;
+while (rgx.test(x1)) {
+x1 = x1.replace(rgx, '$1' + ',' + '$2');
+}
+return x1 + x2;
+}
+var chart;
+$(document).ready(function() {
+chart = new Highcharts.Chart({
+chart: {
+renderTo: 'container',
+defaultSeriesType: 'bar'
+},
+title: {
+text: 'Annual expenditure sources'
+},
+xAxis: {
+categories: [''],
+title: {
+text: null
+}
+},
+yAxis: {
+title: {
+text: '',
+align: 'high'
+}
+},
+tooltip: {
+formatter: function() {
+return ''+
+this.series.name +': '+ addCommas(this.y) + ' Ksh';
+}
+},
+plotOptions: {
+bar: {
+dataLabels: {
+enabled: true,
+formatter: function() {
+return addCommas(this.y) +' Ksh';
+}
+}
+}
+},
+legend: {
+layout: 'vertical',
+align: 'right',
+verticalAlign: 'top',
+x: 0,
+y: 0,
+floating: true,
+borderWidth: 1,
+backgroundColor: '#FFFFFF',
+shadow: true
+},
+credits: {
+enabled: false
+},
+series: [
+{name: 'Crops',data: [2159407.00]}, {name: 'Livestock',data: [900.00]}, {name: 'Other',data: [-9845000.00]}, {name: 'Total',data: [-7684693.00]}
+]
+});
+});
+</script>
+</head>
+<body>
+<script type="text/javascript" src="../3rdPartyTools/highcharts/js/highcharts.js"></script>
+<div id="container" style="width: 2272px; height: 1032px; margin: 0 auto"></div>
+</body>
+</html>

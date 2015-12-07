@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>plotssoil</class>
+ <widget class="impgenmaint" name="plotssoil">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>449</width>
+    <height>251</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="TableName">
+   <string>spadstown</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Basic information</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Soil type:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="IMPComboBox" name="cmbsoil">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="TableName">
+            <string>spadstown</string>
+           </property>
+           <property name="FieldName">
+            <string>SOIL_COD</string>
+           </property>
+           <property name="UseLkTable">
+            <bool>true</bool>
+           </property>
+           <property name="LkTableName">
+            <string>soil</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>Drainage type:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="IMPComboBox" name="cmbdrainage">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>150</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="TableName">
+            <string>spadstown</string>
+           </property>
+           <property name="FieldName">
+            <string>DRAIN_COD</string>
+           </property>
+           <property name="UseLkTable">
+            <bool>true</bool>
+           </property>
+           <property name="LkTableName">
+            <string>drainage</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>Slope (%):</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="IMPEdit" name="txtslope">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="FieldType">
+            <enum>IMPEdit::Numeric</enum>
+           </property>
+           <property name="TableName">
+            <string>spadstown</string>
+           </property>
+           <property name="FieldName">
+            <string>SLOPE</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string>Depth (cm):</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="IMPEdit" name="txtdepth">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="FieldType">
+            <enum>IMPEdit::Numeric</enum>
+           </property>
+           <property name="TableName">
+            <string>spadstown</string>
+           </property>
+           <property name="FieldName">
+            <string>DEPTH</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_5">
+           <property name="text">
+            <string>Permeability (%):</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="IMPEdit" name="txtpermea">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="FieldType">
+            <enum>IMPEdit::Numeric</enum>
+           </property>
+           <property name="TableName">
+            <string>spadstown</string>
+           </property>
+           <property name="FieldName">
+            <string>PERMEA</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="label_6">
+           <property name="text">
+            <string>Local name:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="IMPEdit" name="txtlname">
+           <property name="TableName">
+            <string>spadstown</string>
+           </property>
+           <property name="FieldName">
+            <string>LOCALNAME</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Optional information</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_7">
+           <property name="text">
+            <string>Colour:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="IMPEdit" name="txtcolour">
+           <property name="FieldType">
+            <enum>IMPEdit::Numeric</enum>
+           </property>
+           <property name="TableName">
+            <string>spadstown</string>
+           </property>
+           <property name="FieldName">
+            <string>PLOTCOLOR</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_8">
+           <property name="text">
+            <string>Landscape position:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="IMPComboBox" name="cmblandpos">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>150</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="TableName">
+            <string>spadstown</string>
+           </property>
+           <property name="FieldName">
+            <string>LANDPOS</string>
+           </property>
+           <property name="UseLkTable">
+            <bool>true</bool>
+           </property>
+           <property name="LkTableName">
+            <string>soil</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_9">
+           <property name="text">
+            <string>Slope class:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="IMPComboBox" name="cmbslopeclass">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>150</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="TableName">
+            <string>spadstown</string>
+           </property>
+           <property name="FieldName">
+            <string>SLOPECLASS</string>
+           </property>
+           <property name="UseLkTable">
+            <bool>true</bool>
+           </property>
+           <property name="LkTableName">
+            <string>soil</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_10">
+           <property name="text">
+            <string>Visible erosion:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="IMPComboBox" name="cmberosion">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>150</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="TableName">
+            <string>spadstown</string>
+           </property>
+           <property name="FieldName">
+            <string>EROSION</string>
+           </property>
+           <property name="UseLkTable">
+            <bool>true</bool>
+           </property>
+           <property name="LkTableName">
+            <string>soil</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_11">
+           <property name="text">
+            <string>Farmer's fertility class:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="IMPEdit" name="txtfertclass">
+           <property name="FieldType">
+            <enum>IMPEdit::Numeric</enum>
+           </property>
+           <property name="TableName">
+            <string>spadstown</string>
+           </property>
+           <property name="FieldName">
+            <string>FARMFERTCLASS</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="label_12">
+           <property name="text">
+            <string>Conservation structures:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="IMPComboBox" name="cmbcstruct">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>150</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="TableName">
+            <string>spadstown</string>
+           </property>
+           <property name="FieldName">
+            <string>CSTRUCTURES</string>
+           </property>
+           <property name="UseLkTable">
+            <bool>true</bool>
+           </property>
+           <property name="LkTableName">
+            <string>soil</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="cmdcancel">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>Cancel</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../images.qrc">
+         <normaloff>:/images/cancel.png</normaloff>:/images/cancel.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="cmdapplyall">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>Apply to all plots</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../images.qrc">
+         <normaloff>:/images/apply.png</normaloff>:/images/apply.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="cmdapply">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>Apply</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../images.qrc">
+         <normaloff>:/images/apply.png</normaloff>:/images/apply.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="cmdclose">
+       <property name="text">
+        <string>Close</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../images.qrc">
+         <normaloff>:/images/closeform.png</normaloff>:/images/closeform.png</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>IMPEdit</class>
+   <extends>QLineEdit</extends>
+   <header>impedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>IMPComboBox</class>
+   <extends>QComboBox</extends>
+   <header>impcombobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>impgenmaint</class>
+   <extends>QWidget</extends>
+   <header>impgenmaint.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

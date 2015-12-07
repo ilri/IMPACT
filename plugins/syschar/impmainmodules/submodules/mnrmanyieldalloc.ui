@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mnrmanyieldalloc</class>
+ <widget class="impgenmaint" name="mnrmanyieldalloc">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>358</width>
+    <height>207</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="TableName">
+   <string>mnrheap</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="IMPCheckBox" name="iMPCheckBox">
+       <property name="text">
+        <string>Applied to the field</string>
+       </property>
+       <property name="TableName">
+        <string>mnrheap</string>
+       </property>
+       <property name="FieldName">
+        <string>AP</string>
+       </property>
+       <property name="CheckedValue" stdset="0">
+        <string>Y</string>
+       </property>
+       <property name="UnCheckedValue">
+        <string>N</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="IMPEdit" name="iMPEdit">
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="FieldType">
+        <enum>IMPEdit::Numeric</enum>
+       </property>
+       <property name="TableName">
+        <string>mnrheap</string>
+       </property>
+       <property name="FieldName">
+        <string>PORAP</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLabel" name="Label28">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>0</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>0</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>0</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>kgs</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="IMPCheckBox" name="iMPCheckBox_2">
+       <property name="text">
+        <string>For sale</string>
+       </property>
+       <property name="TableName">
+        <string>mnrheap</string>
+       </property>
+       <property name="FieldName">
+        <string>FS</string>
+       </property>
+       <property name="CheckedValue" stdset="0">
+        <string>Y</string>
+       </property>
+       <property name="UnCheckedValue">
+        <string>N</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="IMPEdit" name="iMPEdit_2">
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="FieldType">
+        <enum>IMPEdit::Numeric</enum>
+       </property>
+       <property name="TableName">
+        <string>mnrheap</string>
+       </property>
+       <property name="FieldName">
+        <string>PORFS</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="Label29">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>0</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>0</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>0</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>kgs</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="IMPCheckBox" name="iMPCheckBox_3">
+       <property name="text">
+        <string>Livestock feeding</string>
+       </property>
+       <property name="TableName">
+        <string>mnrheap</string>
+       </property>
+       <property name="FieldName">
+        <string>LF</string>
+       </property>
+       <property name="CheckedValue" stdset="0">
+        <string>Y</string>
+       </property>
+       <property name="UnCheckedValue">
+        <string>N</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="IMPEdit" name="iMPEdit_3">
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="FieldType">
+        <enum>IMPEdit::Numeric</enum>
+       </property>
+       <property name="TableName">
+        <string>mnrheap</string>
+       </property>
+       <property name="FieldName">
+        <string>PORLF</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLabel" name="Label30">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>0</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>0</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>0</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>kgs</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="IMPCheckBox" name="iMPCheckBox_4">
+       <property name="text">
+        <string>Other</string>
+       </property>
+       <property name="TableName">
+        <string>mnrheap</string>
+       </property>
+       <property name="FieldName">
+        <string>GP</string>
+       </property>
+       <property name="CheckedValue" stdset="0">
+        <string>Y</string>
+       </property>
+       <property name="UnCheckedValue">
+        <string>N</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="IMPEdit" name="iMPEdit_4">
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="FieldType">
+        <enum>IMPEdit::Numeric</enum>
+       </property>
+       <property name="TableName">
+        <string>mnrheap</string>
+       </property>
+       <property name="FieldName">
+        <string>PORGP</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLabel" name="Label31">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>0</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>0</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>0</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>kgs</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="BitBtn17">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>Apply</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../images.qrc">
+         <normaloff>:/images/apply.png</normaloff>:/images/apply.png</iconset>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="BitBtn21">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>Cancel</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../images.qrc">
+         <normaloff>:/images/cancel.png</normaloff>:/images/cancel.png</iconset>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="BitBtn24">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>Close</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../images.qrc">
+         <normaloff>:/images/closeform.png</normaloff>:/images/closeform.png</iconset>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>IMPEdit</class>
+   <extends>QLineEdit</extends>
+   <header>impedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>IMPCheckBox</class>
+   <extends>QCheckBox</extends>
+   <header>impcheckbox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>impgenmaint</class>
+   <extends>QWidget</extends>
+   <header>impgenmaint.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Highcharts Example</title>
+<script type="text/javascript" src="../3rdPartyTools/highcharts/js/jquery.min.js"></script>
+<script type="text/javascript">
+function addCommas(nStr)
+{
+nStr += '';
+x = nStr.split('.');
+x1 = x[0];
+x2 = x.length > 1 ? '.' + x[1] : '';
+var rgx = /(\d+)(\d{3})/;
+while (rgx.test(x1)) {
+x1 = x1.replace(rgx, '$1' + ',' + '$2');
+}
+return x1 + x2;
+}
+var chart;
+$(document).ready(function() {
+chart = new Highcharts.Chart({
+chart: {
+renderTo: 'container',
+defaultSeriesType: 'line',
+marginRight: 130,
+marginBottom: 25
+},
+title: {
+text: 'Income and expenses per period',
+x: -20 //center
+},
+subtitle: {
+text: '',
+x: -20
+},
+xAxis: {
+categories: [
+'JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'
+]
+},
+yAxis: {
+title: {
+text: 'Total (Ksh)'
+},
+plotLines: [{
+value: 0,
+width: 1,
+color: '#808080'
+}]
+},
+tooltip: {
+formatter: function() {
+return '<b>'+ this.series.name +'</b><br/>'+
+this.x +': '+ addCommas(this.y) +' Ksh';
+}
+},
+legend: {
+layout: 'vertical',
+align: 'right',
+verticalAlign: 'top',
+x: -10,
+y: 100,
+borderWidth: 0
+},
+series: [
+{name: 'Income', data: [8872.35, 5350.35, 5350.35, 5500.35, 5350.35, 2350.35, 2350.35, 5500.35, 7843.35, 5350.35, 5350.35, 5500.35]}, {name: 'Expensed', data: [6290.00, 2705.00, 2005.00, 8119.94, 2244.40, 2705.00, 2290.00, 5115.00, 2005.00, 2990.00, 2005.00, 5085.00]}
+]
+});
+});
+</script>
+</head>
+<body>
+<script type="text/javascript" src="../3rdPartyTools/highcharts/js/highcharts.js"></script>
+<div id="container" style="width: 2272px; height: 1032px; margin: 0 auto"></div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<graph caption='' decimalPrecision='0' showPercentageValues='0' formatNumberScale='0' shownames='1' numberPrefix='GD'>
+<SET name='Livestock keeping' value='30000.00' />
+<SET name='Cropping cost' value='6936.00' />
+<SET name='Food for household' value='36144.00' />
+<SET name='Other household expenses' value='13080.00' />
+</graph>

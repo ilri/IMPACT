@@ -1,0 +1,1478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frmhumancons3</class>
+ <widget class="QWidget" name="frmhumancons3">
+  <property name="geometry">
+   <rect>
+    <x>188</x>
+    <y>123</y>
+    <width>635</width>
+    <height>491</height>
+   </rect>
+  </property>
+  <property name="toolTip">
+   <string></string>
+  </property>
+  <widget class="QLabel" name="Label286">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>3</y>
+     <width>189</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Household consumption</string>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="toolTip">
+    <string></string>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="PageControl1">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>24</y>
+     <width>620</width>
+     <height>428</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>2</number>
+   </property>
+   <property name="tabPosition">
+    <enum>QTabWidget::North</enum>
+   </property>
+   <property name="toolTip">
+    <string></string>
+   </property>
+   <widget class="QWidget" name="TabSheet1">
+    <attribute name="title">
+     <string>Crops, vegetables and pastures</string>
+    </attribute>
+    <property name="toolTip">
+     <string></string>
+    </property>
+    <widget class="QTableView" name="AdvListView1">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>9</y>
+       <width>602</width>
+       <height>123</height>
+      </rect>
+     </property>
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="toolTip">
+      <string></string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="Panel1">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>135</y>
+       <width>610</width>
+       <height>191</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string></string>
+     </property>
+     <property name="enabled">
+      <bool>False</bool>
+     </property>
+     <property name="alignment">
+      <enum>Qt::AlignCenter</enum>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="toolTip">
+      <string></string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <widget class="QLabel" name="Label1">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>15</y>
+        <width>79</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Energy (MJ/kg.):</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Label2">
+      <property name="geometry">
+       <rect>
+        <x>168</x>
+        <y>14</y>
+        <width>68</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Protein (g/kg):</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Label15">
+      <property name="geometry">
+       <rect>
+        <x>22</x>
+        <y>42</y>
+        <width>126</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Consumption calendar</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>128</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>128</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>128</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+     </widget>
+     <widget class="QTableView" name="AdvListView2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>57</y>
+        <width>586</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BitBtn1">
+      <property name="geometry">
+       <rect>
+        <x>368</x>
+        <y>161</y>
+        <width>112</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Apply calendar</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="toolTip">
+       <string>Save the current record</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BitBtn2">
+      <property name="geometry">
+       <rect>
+        <x>483</x>
+        <y>161</y>
+        <width>119</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Cancel calendar</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="toolTip">
+       <string>Restore the current record</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Edit1">
+      <property name="geometry">
+       <rect>
+        <x>96</x>
+        <y>11</y>
+        <width>65</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Edit2">
+      <property name="geometry">
+       <rect>
+        <x>242</x>
+        <y>10</y>
+        <width>62</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BitBtn3">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>9</y>
+        <width>214</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Get nutritional values from database</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+     </widget>
+     <widget class="QFrame" name="Panel4">
+      <property name="geometry">
+       <rect>
+        <x>2</x>
+        <y>57</y>
+        <width>19</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string></string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <enum>Qt::AlignCenter</enum>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="Image3">
+       <property name="geometry">
+        <rect>
+         <x>2</x>
+         <y>2</y>
+         <width>14</width>
+         <height>14</height>
+        </rect>
+       </property>
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="toolTip">
+        <string>Click me</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="TabSheet2">
+    <attribute name="title">
+     <string>Livestock</string>
+    </attribute>
+    <property name="toolTip">
+     <string></string>
+    </property>
+    <widget class="QTableView" name="AdvListView3">
+     <property name="geometry">
+      <rect>
+       <x>112</x>
+       <y>11</y>
+       <width>399</width>
+       <height>149</height>
+      </rect>
+     </property>
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="toolTip">
+      <string></string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="Panel2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>172</y>
+       <width>611</width>
+       <height>174</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string></string>
+     </property>
+     <property name="enabled">
+      <bool>False</bool>
+     </property>
+     <property name="alignment">
+      <enum>Qt::AlignCenter</enum>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="toolTip">
+      <string></string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <widget class="QLabel" name="Label4">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>5</y>
+        <width>79</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Energy (MJ/kg.):</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Label5">
+      <property name="geometry">
+       <rect>
+        <x>168</x>
+        <y>4</y>
+        <width>68</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Protein (g/kg):</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Label16">
+      <property name="geometry">
+       <rect>
+        <x>21</x>
+        <y>29</y>
+        <width>126</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Consumption calendar</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>128</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>128</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>128</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+     </widget>
+     <widget class="QTableView" name="AdvListView5">
+      <property name="geometry">
+       <rect>
+        <x>19</x>
+        <y>44</y>
+        <width>586</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BitBtn6">
+      <property name="geometry">
+       <rect>
+        <x>361</x>
+        <y>146</y>
+        <width>112</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Apply calendar</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="toolTip">
+       <string>Save the current record</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BitBtn7">
+      <property name="geometry">
+       <rect>
+        <x>478</x>
+        <y>145</y>
+        <width>119</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Cancel calendar</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="toolTip">
+       <string>Restore the current record</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Edit3">
+      <property name="geometry">
+       <rect>
+        <x>96</x>
+        <y>1</y>
+        <width>65</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Edit4">
+      <property name="geometry">
+       <rect>
+        <x>239</x>
+        <y>1</y>
+        <width>62</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BitBtn8">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>1</y>
+        <width>214</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Get nutritional values from database</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+     </widget>
+     <widget class="QFrame" name="Panel5">
+      <property name="geometry">
+       <rect>
+        <x>2</x>
+        <y>44</y>
+        <width>19</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string></string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <enum>Qt::AlignCenter</enum>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="Image1">
+       <property name="geometry">
+        <rect>
+         <x>2</x>
+         <y>2</y>
+         <width>14</width>
+         <height>14</height>
+        </rect>
+       </property>
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="toolTip">
+        <string>Click me</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="TabSheet3">
+    <attribute name="title">
+     <string>Other products</string>
+    </attribute>
+    <property name="toolTip">
+     <string></string>
+    </property>
+    <widget class="QGroupBox" name="GroupBox2">
+     <property name="geometry">
+      <rect>
+       <x>87</x>
+       <y>9</y>
+       <width>437</width>
+       <height>225</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string></string>
+     </property>
+     <property name="toolTip">
+      <string></string>
+     </property>
+     <widget class="QPushButton" name="BitBtn9">
+      <property name="geometry">
+       <rect>
+        <x>267</x>
+        <y>195</y>
+        <width>68</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Apply</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BitBtn10">
+      <property name="geometry">
+       <rect>
+        <x>339</x>
+        <y>195</y>
+        <width>87</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Cancel</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+     </widget>
+     <widget class="QTableView" name="AdvListView6">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>10</y>
+        <width>418</width>
+        <height>180</height>
+       </rect>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BitBtn14">
+      <property name="geometry">
+       <rect>
+        <x>8</x>
+        <y>195</y>
+        <width>101</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Add product</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BitBtn15">
+      <property name="geometry">
+       <rect>
+        <x>113</x>
+        <y>195</y>
+        <width>87</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Delete</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="Panel3">
+     <property name="geometry">
+      <rect>
+       <x>4</x>
+       <y>239</y>
+       <width>603</width>
+       <height>163</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string></string>
+     </property>
+     <property name="enabled">
+      <bool>False</bool>
+     </property>
+     <property name="alignment">
+      <enum>Qt::AlignCenter</enum>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="toolTip">
+      <string></string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <widget class="QLabel" name="Label11">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>15</y>
+        <width>79</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Energy (MJ/kg.):</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Label12">
+      <property name="geometry">
+       <rect>
+        <x>168</x>
+        <y>14</y>
+        <width>68</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Protein (g/kg):</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Label17">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>37</y>
+        <width>126</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Consumption calendar</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>128</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>128</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>128</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+     </widget>
+     <widget class="QTableView" name="AdvListView7">
+      <property name="geometry">
+       <rect>
+        <x>8</x>
+        <y>50</y>
+        <width>586</width>
+        <height>82</height>
+       </rect>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BitBtn11">
+      <property name="geometry">
+       <rect>
+        <x>358</x>
+        <y>134</y>
+        <width>112</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Apply calendar</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="toolTip">
+       <string>Save the current record</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BitBtn12">
+      <property name="geometry">
+       <rect>
+        <x>475</x>
+        <y>134</y>
+        <width>119</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Cancel calendar</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="toolTip">
+       <string>Restore the current record</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Edit5">
+      <property name="geometry">
+       <rect>
+        <x>96</x>
+        <y>11</y>
+        <width>65</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Edit6">
+      <property name="geometry">
+       <rect>
+        <x>239</x>
+        <y>11</y>
+        <width>62</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BitBtn13">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>9</y>
+        <width>254</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Get suggested nutritional values from database</string>
+      </property>
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="toolTip">
+       <string></string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="FashionPanel1">
+   <property name="geometry">
+    <rect>
+     <x>37</x>
+     <y>111</y>
+     <width>566</width>
+     <height>364</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>FashionPanel1</string>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <enum>Qt::AlignCenter</enum>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="toolTip">
+    <string></string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <widget class="QLabel" name="Label13">
+    <property name="geometry">
+     <rect>
+      <x>17</x>
+      <y>307</y>
+      <width>62</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Filter by type:</string>
+    </property>
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="toolTip">
+     <string></string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Label14">
+    <property name="geometry">
+     <rect>
+      <x>206</x>
+      <y>308</y>
+      <width>81</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Find product like:</string>
+    </property>
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="toolTip">
+     <string></string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="AdvListView8">
+    <property name="geometry">
+     <rect>
+      <x>17</x>
+      <y>33</y>
+      <width>529</width>
+      <height>263</height>
+     </rect>
+    </property>
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="toolTip">
+     <string></string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="ComboBox1">
+    <property name="geometry">
+     <rect>
+      <x>83</x>
+      <y>304</y>
+      <width>119</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="toolTip">
+     <string></string>
+    </property>
+    <item>
+     <property name="text">
+      <string>ALL TYPES</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cereals</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Eggs</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fish</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fruits</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Meat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Milk</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Oil</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pulses</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Starches</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sugar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vegetables</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="Edit7">
+    <property name="geometry">
+     <rect>
+      <x>292</x>
+      <y>306</y>
+      <width>214</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string></string>
+    </property>
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="toolTip">
+     <string></string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button1">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>305</y>
+      <width>35</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Find</string>
+    </property>
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+    <property name="toolTip">
+     <string></string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BitBtn16">
+    <property name="geometry">
+     <rect>
+      <x>417</x>
+      <y>334</y>
+      <width>65</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apply</string>
+    </property>
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+    <property name="toolTip">
+     <string></string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Close">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>334</y>
+      <width>75</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Close</string>
+    </property>
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+    <property name="toolTip">
+     <string></string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="BitBtn17">
+   <property name="geometry">
+    <rect>
+     <x>555</x>
+     <y>5</y>
+     <width>74</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Summary</string>
+   </property>
+   <property name="enabled">
+    <bool>False</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+   <property name="toolTip">
+    <string>Summary</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="pnlinfo">
+   <property name="geometry">
+    <rect>
+     <x>104</x>
+     <y>513</y>
+     <width>477</width>
+     <height>107</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>pnlinfo</string>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <enum>Qt::AlignCenter</enum>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="toolTip">
+    <string></string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <widget class="QLabel" name="Image4">
+    <property name="geometry">
+     <rect>
+      <x>6</x>
+      <y>24</y>
+      <width>26</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="toolTip">
+     <string></string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="Memo1">
+    <property name="geometry">
+     <rect>
+      <x>37</x>
+      <y>23</y>
+      <width>433</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="toolTip">
+     <string></string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="plainText">
+     <string>
+This figure indicates the price at which this commodity is trade +
+d locally. It represents what 
+
+the household would pay if this commodity were not produced by t +
+he household but had to 
+be bought.</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BitBtn18">
+    <property name="geometry">
+     <rect>
+      <x>394</x>
+      <y>71</y>
+      <width>75</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ok</string>
+    </property>
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+    <property name="toolTip">
+     <string></string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="ImageList1">
+   <property name="geometry">
+    <rect>
+     <x>467</x>
+     <y>6</y>
+     <width>15</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string></string>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <enum>Qt::AlignCenter</enum>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="toolTip">
+    <string></string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+ </widget>
+</ui>

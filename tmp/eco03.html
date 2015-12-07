@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Highcharts Example</title>
+<script type="text/javascript" src="../3rdPartyTools/highcharts/js/jquery.min.js"></script>
+<script type="text/javascript">
+function addCommas(nStr)
+{
+nStr += '';
+x = nStr.split('.');
+x1 = x[0];
+x2 = x.length > 1 ? '.' + x[1] : '';
+var rgx = /(\d+)(\d{3})/;
+while (rgx.test(x1)) {
+x1 = x1.replace(rgx, '$1' + ',' + '$2');
+}
+return x1 + x2;
+}
+var chart;
+$(document).ready(function() {
+chart = new Highcharts.Chart({
+chart: {
+renderTo: 'container',
+plotBackgroundColor: null,
+plotBorderWidth: null,
+plotShadow: false
+},
+title: {
+text: 'Annual expenditure sources'
+},
+tooltip: {
+formatter: function() {
+return '<b>'+ this.point.name +'</b>: '+ addCommas(this.y) + ' Ksh';
+}
+},
+plotOptions: {
+pie: {
+allowPointSelect: true,
+cursor: 'pointer',
+dataLabels: {
+enabled: true,
+color: '#000000',
+connectorColor: '#000000',
+formatter: function() {
+return addCommas(this.y) +' Ksh';
+}
+},
+showInLegend: true
+}
+},
+series: [{
+type: 'pie',
+name: 'Browser share',
+data: [
+['Livestock keeping', 15000.00],
+['Cropping cost', 3468.00],
+['Food for household', 18072.00],
+['Other household expenses', 6540.00]
+]
+}]
+});
+});
+</script>
+</head>
+<body>
+<script type="text/javascript" src="../3rdPartyTools/highcharts/js/highcharts.js"></script>
+<div id="container" style="width: 2272px; height: 1032px; margin: 0 auto"></div>
+</body>
+</html>

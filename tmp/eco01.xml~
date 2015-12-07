@@ -1,0 +1,9 @@
+<graph caption='Pie Chart' decimalPrecision='0' showPercentageValues='0' formatNumberScale='0' shownames='1'' numberPrefix='GD'>
+<SET name='Cowpea' value='79200.00' />
+<SET name='Groundnuts' value='495880.00' />
+<SET name='Rice' value='1152000.00' />
+<SET name='Yams' value='3372800.00' />
+<SET name='Guinea fowl' value='44000.00' />
+<SET name='Chicken' value='106000.00' />
+<SET name='Goats' value='200000.00' />
+</graph>

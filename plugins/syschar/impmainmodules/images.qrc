@@ -1,0 +1,44 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/apply.png</file>
+        <file>images/cancel.png</file>
+        <file>images/closeform.png</file>
+        <file>images/delete3.png</file>
+        <file>images/modify2.png</file>
+        <file>images/new3.png</file>
+        <file>images/rowerror.png</file>
+        <file>images/schema.png</file>
+        <file>images/nosun.png</file>
+        <file>images/suncloud.png</file>
+        <file>images/clouds.png</file>
+        <file>images/fullsun.png</file>
+        <file>images/autum.png</file>
+        <file>images/spring.png</file>
+        <file>images/sun.png</file>
+        <file>images/wet.png</file>
+        <file>images/winter.png</file>
+        <file>images/nosundata.png</file>
+        <file>images/wellbeign.png</file>
+        <file>images/livedistro.png</file>
+        <file>images/nutriqua.png</file>
+        <file>images/purchase.png</file>
+        <file>images/svg/climate.svg</file>
+        <file>images/svg/crops.svg</file>
+        <file>images/svg/human.svg</file>
+        <file>images/svg/livestock.svg</file>
+        <file>images/carrot.png</file>
+        <file>images/ok.png</file>
+        <file>images/nocheck.png</file>
+        <file>images/svg/autum.svg</file>
+        <file>images/svg/checked.svg</file>
+        <file>images/svg/fully_cloudy.svg</file>
+        <file>images/svg/many_clouds.svg</file>
+        <file>images/svg/nochecked.svg</file>
+        <file>images/svg/some_clouds.svg</file>
+        <file>images/svg/spring.svg</file>
+        <file>images/svg/summer.svg</file>
+        <file>images/svg/wet.svg</file>
+        <file>images/svg/winter.svg</file>
+        <file>images/svg/economic.svg</file>
+    </qresource>
+</RCC>

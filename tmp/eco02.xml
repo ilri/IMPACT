@@ -1,0 +1,7 @@
+<graph caption='' decimalPrecision='0' showPercentageValues='0' formatNumberScale='0' shownames='1' numberPrefix='GD'>
+<SET name='Cash Crop' value='0.00' />
+<SET name='Food Crop' value='50450.40' />
+<SET name='Feed Crop' value='0.00' />
+<SET name='Food-Feed Crop' value='65880.00' />
+<SET name='Livestock' value='30975.00' />
+</graph>
