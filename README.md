@@ -12,7 +12,7 @@ IMPACT was built using:
 - [SQLite](https://www.sqlite.org/), a relational database management system contained in a C programming library.
 - [HighCharts](http://www.highcharts.com/), a charting library written in pure JavaScript. *(Included in source code)*
 
-![Image](/screenshot.png?raw=true "Screen-shot")
+![Image](/screenshot.jpg?raw=true "Screen-shot")
 
 ## Building and testing
 To build IMPACT on Linux do:
