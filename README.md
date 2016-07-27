@@ -15,6 +15,8 @@ IMPACT was built using:
 - [SQLite](https://www.sqlite.org/), a relational database management system contained in a C programming library.
 - [HighCharts](http://www.highcharts.com/), a charting library written in pure JavaScript. *(Included in source code)*
 
+## Windows binary
+You can download and install IMPACT for Windows [here](http://www.qlands.com/other_files/IMPACT30-Setup.exe)
 
 ## Building and testing
 To build IMPACT on Linux do:
