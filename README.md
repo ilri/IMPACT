@@ -7,6 +7,10 @@ IMPACT is cross platform. It can be build on Windows, Linux and Mac.
 
 ![Image](/screenshot.jpg?raw=true "Screen-shot")
 
+If you use IMPACT please cite:
+
+*Quiros, C. 2016. IMPACT: Integrated Modelling Platform for Mixed Animal-Crop Systems. Source Code. Nairobi: ILRI. https://hdl.handle.net/10568/112936.*
+
 ## Technology
 IMPACT was built using:
 
